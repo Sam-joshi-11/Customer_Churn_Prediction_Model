@@ -78,7 +78,7 @@ Customer_Churn_Prediction_Model
 ## Clone Repository
 
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/Customer_Churn_Prediction_Model.git
+git clone https://github.com/Sam-joshi-11/Customer_Churn_Prediction_Model.git
 
 cd Customer_Churn_Prediction_Model
 ```
@@ -154,13 +154,13 @@ docker run -p 8000:8000 customer-churn-api
 **Render URL**
 
 ```
-https://YOUR_RENDER_URL.onrender.com
+https://customer-churn-prediction-model-9em9.onrender.com
 ```
 
 Swagger Docs
 
 ```
-https://YOUR_RENDER_URL.onrender.com/docs
+https://customer-churn-prediction-model-9em9.onrender.com/docs
 ```
 
 ---
@@ -173,16 +173,16 @@ https://YOUR_RENDER_URL.onrender.com/docs
 
 ```json
 {
-  "CreditScore": 619,
-  "Age": 42,
-  "Tenure": 2,
+  "CreditScore": 300,
+  "Age": 18,
+  "Tenure": 10,
   "Balance": 0,
   "NumOfProducts": 1,
   "HasCrCard": 1,
   "IsActiveMember": 1,
-  "EstimatedSalary": 101348.88,
-  "Geography_Germany": 0,
-  "Geography_Spain": 0,
+  "EstimatedSalary": 0,
+  "Geography_Germany": 1,
+  "Geography_Spain": 1,
   "Gender_Male": 1
 }
 ```
@@ -194,7 +194,7 @@ https://YOUR_RENDER_URL.onrender.com/docs
 ```json
 {
   "prediction": 0,
-  "churn_probability": 0.3239
+  "churn_probability": 0.0682
 }
 ```
 
