@@ -12,8 +12,6 @@ __pycache__/
 # MLflow
 mlruns/
 
-# Artifacts
-artifacts/
 
 # VS Code
 .vscode/
