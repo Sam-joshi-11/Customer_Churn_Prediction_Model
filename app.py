@@ -9,9 +9,12 @@ app = FastAPI(
     version="1.0.0"
 )
 
-MODEL_PATH = "artifacts/customer_churn_model.pkl"
+from pathlib import Path
 
-if not os.path.exists(MODEL_PATH):
+BASE_DIR = Path(__file__).resolve().parent
+MODEL_PATH = BASE_DIR / "artifacts" / "customer_churn_model.pkl"
+
+if not MODEL_PATH.exists():
     raise FileNotFoundError(f"Model not found at {MODEL_PATH}")
 
 model = joblib.load(MODEL_PATH)
