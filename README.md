@@ -198,27 +198,12 @@ https://customer-churn-prediction-model-9em9.onrender.com/docs
 }
 ```
 
----
-
-# 📊 Model Performance
-
-| Metric | Value |
-|---------|------:|
-| Algorithm | XGBoost Classifier |
-| Evaluation | ROC-AUC |
-| Experiment Tracking | MLflow |
-
-*(Update this section with your final Accuracy and ROC-AUC values.)*
-
----
 
 # 🔮 Future Improvements
 
 - Health Check Endpoint
 - API Versioning
 - Structured Logging
-- Unit Testing with Pytest
-- CI/CD using GitHub Actions
 - MLflow Model Registry Integration
 - AWS S3 Model Storage
 - Authentication (JWT/API Key)
@@ -232,8 +217,7 @@ https://customer-churn-prediction-model-9em9.onrender.com/docs
 **Samarth Joshi**
 
 - GitHub: https://github.com/Sam-joshi-11
-- LinkedIn: *(Add your LinkedIn profile)*
-
+- LinkedIn: https://www.linkedin.com/in/samarthjoshi2410 
 ---
 
 # ⭐ Support
