@@ -1,10 +1,10 @@
-# 🚀 Customer Churn Prediction API
+# Customer Churn Prediction API
 
 A production-ready Machine Learning API for predicting customer churn using **XGBoost**, **FastAPI**, **Docker**, and **MLflow**. The application is containerized with Docker and deployed on **Render**, providing a scalable REST API for real-time predictions.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Customer churn prediction helps businesses identify customers who are likely to leave. This project trains an XGBoost classification model and exposes it through a RESTful FastAPI service.
 
@@ -12,21 +12,21 @@ The project follows a modular architecture with separate components for model lo
 
 ---
 
-## ✨ Features
+## Features
 
-- ✅ Customer Churn Prediction using XGBoost
-- ✅ FastAPI REST API
-- ✅ Modular Project Structure
-- ✅ MLflow Experiment Tracking
-- ✅ Docker Containerization
-- ✅ Render Cloud Deployment
-- ✅ Input Validation using Pydantic
-- ✅ Interactive Swagger Documentation
-- ✅ Production-ready Project Structure
+-  Customer Churn Prediction using XGBoost
+-  FastAPI REST API
+-  Modular Project Structure
+-  MLflow Experiment Tracking
+-  Docker Containerization
+-  Render Cloud Deployment
+-  Input Validation using Pydantic
+-  Interactive Swagger Documentation
+-  Production-ready Project Structure
 
 ---
 
-# 🏗 Project Structure
+# Project Structure
 
 ```text
 Customer_Churn_Prediction_Model
@@ -57,7 +57,7 @@ Customer_Churn_Prediction_Model
 
 ---
 
-# 🛠 Tech Stack
+# Tech Stack
 
 | Category | Technology |
 |----------|------------|
@@ -73,7 +73,7 @@ Customer_Churn_Prediction_Model
 
 ---
 
-# ⚙ Installation
+# Installation
 
 ## Clone Repository
 
@@ -113,7 +113,7 @@ pip install -r requirements.txt
 
 ---
 
-# ▶ Run the API
+# Run the API
 
 ```bash
 uvicorn app.main:app --reload
@@ -133,7 +133,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-# 🐳 Run with Docker
+# Run with Docker
 
 Build
 
@@ -149,7 +149,7 @@ docker run -p 8000:8000 customer-churn-api
 
 ---
 
-# ☁ Live Deployment
+# Live Deployment
 
 **Render URL**
 
@@ -165,7 +165,7 @@ https://customer-churn-prediction-model-9em9.onrender.com/docs
 
 ---
 
-# 📩 API Endpoint
+# API Endpoint
 
 ## POST `/predict`
 
@@ -199,7 +199,7 @@ https://customer-churn-prediction-model-9em9.onrender.com/docs
 ```
 
 
-# 🔮 Future Improvements
+# Future Improvements
 
 - Health Check Endpoint
 - API Versioning
@@ -212,7 +212,7 @@ https://customer-churn-prediction-model-9em9.onrender.com/docs
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 **Samarth Joshi**
 
@@ -220,6 +220,6 @@ https://customer-churn-prediction-model-9em9.onrender.com/docs
 - LinkedIn: https://www.linkedin.com/in/samarthjoshi2410 
 ---
 
-# ⭐ Support
+# Support
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
